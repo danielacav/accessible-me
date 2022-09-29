@@ -6,14 +6,18 @@ body {
   color: #121111;
 }
 
-h1,
+h1 {
+  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  color: #880AC2;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
-  color: #880AC2;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  color: #121111;
 }
 
 .skip-link {
@@ -106,4 +110,5 @@ footer {
 
 .top-link {
   margin: 3rem 0;
+  color: #880AC2;
 }
