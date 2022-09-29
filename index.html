@@ -20,17 +20,17 @@
   <div id="top" class="container">
     <div class="site-header">
       <h1>Jam Box Studios</h1>
-      <div class="main-nav">
+      <div role="menubar" class="main-nav">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Reservation</a></li>
-          <li><a href="#">Studio</a></li>
+          <li role="menuitem"><a href="#">Home</a></li>
+          <li role="menuitem"><a href="#">Products</a></li>
+          <li role="menuitem"><a href="#">Reservation</a></li>
+          <li role="menuitem"><a href="#">Studio</a></li>
         </ul>
       </div>
       <img src="https://placekitten.com/1200/900"  alt="Kitten image displayed" class="banner">
     </div>
-    <div id="main" class="main-content">
+    <div role=main id="main" class="main-content">
       <h1>Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
@@ -52,7 +52,7 @@
       </div>
       <div class="contact-section">
         <h1>Contact Us</h1>
-        <form action="thanks.html">
+        <form role="form" action="thanks.html">
           <label>Full Name</label>
           <input type="text" placeholder="Full Name goes here">
 
@@ -63,13 +63,13 @@
           <input type="text" placeholder="Subject goes here">
           <b>Your Message</b>
           <textarea>Write a message here</textarea>
-          <button type="submit">Send</button>
+          <button aria-label="Submit form" type="submit">Send</button>
         </form>
       </div>
     </div>
 
     <div class="top-link">
-      <a href="#top">Back to top</a>
+      <a role=navigation href="#top">Back to top</a>
     </div>
     
     <footer>
