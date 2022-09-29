@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: rgb(231, 231, 231);
+  background-color: #FAFAFA;
   margin: 0;
   padding: 0;
   color: #121111;
@@ -13,7 +13,7 @@ h4,
 h5,
 h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
-  color: #121111;
+  color: #880AC2;
 }
 
 .skip-link {
@@ -25,7 +25,7 @@ h6 {
 .skip-link a{
   position: absolute;
   top: -999px;
-  background-color: black;
+  background-color: #880AC2;
   color:white;
   padding: 1rem;
   font-weight: 700;
@@ -36,7 +36,7 @@ h6 {
 }
 
 a:focus, a:hover {
-  outline: 2px solid #121111;
+  outline: 2px solid #880AC2;
   font-weight: 700;
 }
 
@@ -47,7 +47,7 @@ a:focus, a:hover {
 }
 
 img {
-  width: 100%;
+  width: 100%;  
 }
 
 .main-nav ul {
@@ -88,14 +88,14 @@ form textarea {
 
 form button {
   background: none;
-  border: 2px solid #121111;
+  border: 2px solid #880AC2;
   padding: 1rem;
   text-transform: uppercase;
 }
 
 form button:focus, form button:hover {
-  outline: 2px solid #121111;
-  background-color: #121111;
+  outline: 2px solid #880AC2;
+  background-color: #880AC2;
   color: rgb(231, 231, 231);
   font-weight: 700;
 }
