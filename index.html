@@ -18,6 +18,7 @@
   </div>
   
   <div id="top" class="container">
+
     <header class="site-header">
       <h1>Jam Box Studios</h1>
       <nav role="menubar" class="main-nav">
@@ -30,55 +31,61 @@
       </nav>
       <img src="https://placekitten.com/1200/900"  alt="Kitten image displayed" class="banner">
     </header>
+
     <section role=main id="main" class="main-content">
-      <h2>Welcome to Jam Box</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-      
-      <div class="owner">
-        <h3>Meet the owner</h3>
-        <ul itemscope itemtype="https://schema.org/Person">
-          <li itemprop="name">Name: John Doe</li>
-          <li itemprop="jobTitle">Title: CEO</li>
-          <li itemprop="email">Email: johnjoe@jambox.ca</li>
-          <li itemprop="telephone">Phone: 613-000-0000</li>
-        </ul>
+        <h2>Welcome to Jam Box</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
+    </section>
 
-        <h3>Address</h3>
-        <div itemscope itemtype="https://schema.org/PostalAddress">
-            <span itemprop="name">Jambox Studios</span> 
-            <span itemprop="streetAddress">123 Guitar Road,</span>
-            <span itemprop="addressLocality">Musicville, Danceistan</span>
-            <span itemprop="postalCode">B3T 0L0</span>
-        </div>
+    <section role="complementary" class="owner">
+      <h3>Meet the owner</h3>
+      <ul itemscope itemtype="https://schema.org/Person">
+        <li itemprop="name">Name: John Doe</li>
+        <li itemprop="jobTitle">Title: CEO</li>
+        <li itemprop="email">Email: johnjoe@jambox.ca</li>
+        <li itemprop="telephone">Phone: 613-000-0000</li>
+      </ul>
+    </section>
 
-      </div>
-      <div class="contact-section">
-        <h3>Contact Us</h3>
-        <form action="thanks.html">
-          <label>Full Name</label>
-          <input type="text" placeholder="Full Name goes here">
-
-          <label>Email address</label>
-          <input type="email" placeholder="youremail@email.com">
-
-          <label>Subject</label>
-          <input type="text" placeholder="Subject goes here">
-
-          <label>Your Message</label>
-          <textarea>Write a message here</textarea>
-          <button aria-label="Submit form" type="submit">Send</button>
-        </form>
+    <section role="complementary">
+      <h3>Address</h3>
+      <div itemscope itemtype="https://schema.org/PostalAddress">
+        <span itemprop="name">Jambox Studios</span> 
+        <span itemprop="streetAddress">123 Guitar Road,</span>
+        <span itemprop="addressLocality">Musicville, Danceistan</span>
+        <span itemprop="postalCode">B3T 0L0</span>
       </div>
     </section>
 
-    <div class="top-link">
-      <a href="#top">Back to top</a>
-    </div>
-    
-    <footer>
-      &copy; 2021 Jam Box Studios
-    </footer>
+      
+    <section class="contact-section">
+      <h3>Contact Us</h3>
+      <form action="thanks.html">
+        <label>Full Name</label>
+        <input type="text" placeholder="Full Name goes here">
+
+        <label>Email address</label>
+        <input type="email" placeholder="youremail@email.com">
+
+        <label>Subject</label>
+        <input type="text" placeholder="Subject goes here">
+
+        <label>Your Message</label>
+        <textarea>Write a message here</textarea>
+        <button aria-label="Submit form" type="submit">Send</button>
+      </form>
+    </section>
+
+
+      <div role="navigation" class="top-link">
+        <a href="#top">Back to top</a>
+      </div>
+      
+      <footer>
+        &copy; 2021 Jam Box Studios
+      </footer>
+      
   </div>
 </body>
 
